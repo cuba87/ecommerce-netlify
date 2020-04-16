@@ -6,7 +6,7 @@
           <NuxtLink :to="`product/${item.id}`">
             <img :src="`/products/${item.img}`" />
           </NuxtLink>
-          
+            
         </div>
         <star-rating
           :rating="item.starrating"
